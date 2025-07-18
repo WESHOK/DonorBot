@@ -12,7 +12,10 @@ dependencies = [
     "aiogram-dialog (>=2.4.0,<3.0.0)",
     "openpyxl (>=3.1.5,<4.0.0)",
     "sqlalchemy (>=2.0.41,<3.0.0)",
-    "structlog (>=25.4.0,<26.0.0)"
+    "structlog (>=25.4.0,<26.0.0)",
+    "sulguk (>=0.8.0,<0.9.0)",
+    "pydantic-settings (>=2.10.1,<3.0.0)",
+    "asyncclick (>=8.1.8,<9.0.0)"
 ]
 
 [tool.poetry]
