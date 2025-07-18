@@ -15,7 +15,8 @@ dependencies = [
     "structlog (>=25.4.0,<26.0.0)",
     "sulguk (>=0.8.0,<0.9.0)",
     "pydantic-settings (>=2.10.1,<3.0.0)",
-    "asyncclick (>=8.1.8,<9.0.0)"
+    "asyncclick (>=8.1.8,<9.0.0)",
+    "pyyaml (>=6.0.2,<7.0.0)"
 ]
 
 [tool.poetry]
