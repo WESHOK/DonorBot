@@ -1,7 +1,6 @@
 from datetime import date
 from sqlalchemy import Date
-from sqlalchemy import Integer
-from sqlalchemy import Enum
+from sqlalchemy import BigInteger, Integer
 from sqlalchemy import VARCHAR, CHAR
 from sqlalchemy.orm import Mapped, mapped_column
 
@@ -14,6 +13,9 @@ class Donor(Base):
     __tablename__ = 'donors'
 
 
+    tg_id: Mapped[int] = mapped_column(
+        BigInteger, primary_key=True, unique=True, nullable=False
+    )
     fio: Mapped[str] = mapped_column(
         VARCHAR(255), unique=False, nullable=True
     )
