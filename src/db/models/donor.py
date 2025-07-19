@@ -18,7 +18,7 @@ class Donor(Base):
         VARCHAR(255), unique=False, nullable=True
     )
     group: Mapped[str] = mapped_column(
-        Enum('Сотрудник', CHAR(7)), unique=False, nullable=True
+        VARCHAR(9), unique=False, nullable=True
     )
     gavrilov_amount: Mapped[int] = mapped_column(
         Integer, unique=False, nullable=True
