@@ -10,7 +10,7 @@ from .base import Base
 class Donor(Base):
     """Donor model."""
 
-    __tablename__ = 'donors'
+    __tablename__ = 'donors_list'
 
 
     tg_id: Mapped[int] = mapped_column(
