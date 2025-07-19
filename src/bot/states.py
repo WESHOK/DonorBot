@@ -3,12 +3,9 @@ from aiogram.filters.state import StatesGroup
 
 class MainMenu(StatesGroup):
     welcome = State()
-    help = State()
+    ask = State()
 
 class Reg(StatesGroup):
     confirm = State()
-    school = State()
-    grade = State()
-    error_grade = State()
-    check = State()
-    success = State()
+    number = State()
+    
